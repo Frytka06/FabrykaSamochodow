@@ -1,9 +1,10 @@
 //
-// Created by Fryderyk on 17.06.2025.
+// Created by Fryderyk Forys on 17.06.2025.
 //
-#include <iostream>
 
 #include "BazaDanychSamochodow.h"
+
+#include <iostream>
 
 int main() {
     std::cout << "\n\t\tFabryka Samochodow\n";

@@ -1,5 +1,5 @@
 //
-// Created by Fryderyk on 17.06.2025.
+// Created by Fryderyk Forys on 17.06.2025.
 //
 
 #ifndef SAMOCHOD_H
