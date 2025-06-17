@@ -3,4 +3,6 @@ project(Fabryka_samochodow)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Fabryka_samochodow main.cpp Samochod.cpp)
+add_executable(Fabryka_samochodow main.cpp Samochod.cpp
+        BazaDanychSamochodow.cpp
+        BazaDanychSamochodow.h)
