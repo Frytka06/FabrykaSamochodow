@@ -5,6 +5,7 @@
 #include "BazaDanychSamochodow.h"
 
 #include <iostream>
+#include <string>
 
 int main() {
     std::cout << "\n\t\tFabryka Samochodow\n";
