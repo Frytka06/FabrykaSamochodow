@@ -22,7 +22,7 @@ int main() {
         std::cout << "2. Modyfikuj samochod\n";
         std::cout << "3. Usun samochod\n";
         std::cout << "4. Wyswietl wszystkie samochody\n";
-        std::cout << "5. Koniec pracy\n";
+        std::cout << "5. Koniec pracy\n\n";
         std::cout << "Wprowadz swoj wybor (1-5): ";
 
         std::cin >> wyborOpcji;
