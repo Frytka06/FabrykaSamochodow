@@ -8,13 +8,16 @@
 #include <string>
 
 int main() {
-    std::cout << "\n\t\tFabryka Samochodow\n";
+    std::cout << "\n===================================\n";
+    std::cout << "\n\tFabryka Samochodow\n";
+    std::cout << "\n\tautor: Fryderyk Forys\n";
+    std::cout << "\n-----------------------------------\n";
 
     BazaDanychSamochodow fabrykaSamochodow;
     char wyborOpcji;
 
     do {
-        std::cout << "\nSystem Zarzadzania Fabryki Samochodow\n";
+        std::cout << "\nSystem Zarzadzania Fabryki Samochodow\n\n";
         std::cout << "1. Dodaj samochod\n";
         std::cout << "2. Modyfikuj samochod\n";
         std::cout << "3. Usun samochod\n";
