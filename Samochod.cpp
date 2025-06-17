@@ -10,15 +10,15 @@ Samochod::Samochod(int id, std::string vin, FazaProdukcji faza)
 
 // Getters
 int Samochod::getId() const { return id; }
-const Samochod::std::string& getVin() const { return vin; }
-FazaProdukcji Samochod::getFazaProdukcji() const { return phase; }
+const std::string& Samochod::getVin() const { return vin; }
+FazaProdukcji Samochod::getFazaProdukcji() const { return fazaProdukcji; }
 
 // Setters
 void Samochod::setFazaProdukcji(FazaProdukcji nowaFazaProdukcji) { fazaProdukcji = nowaFazaProdukcji; }
 void Samochod::setVin(const std::string& nowyVin) { vin = nowyVin; }
 
 // Zamienia enum FazaProdukcji na string
-static std::string Samochod::fazaProdukcjiToString(FazaProdukcji phase) {
+std::string Samochod::fazaProdukcjiToString(FazaProdukcji phase) {
     switch (phase) {
         case FazaProdukcji::MONTAZ: return "MONTAZ";
         case FazaProdukcji::MALOWANIE: return "MALOWANIE";
@@ -29,7 +29,7 @@ static std::string Samochod::fazaProdukcjiToString(FazaProdukcji phase) {
 }
 
 // Zamienia string na enum FazaProdukcji
-static FazaProdukcji Samochod::stringToFazaProdukcji(const std::string& phaseStr) {
+FazaProdukcji Samochod::stringToFazaProdukcji(const std::string& phaseStr) {
     if (phaseStr == "MONTAZ") return FazaProdukcji::MONTAZ;
     if (phaseStr == "MALOWANIE") return FazaProdukcji::MALOWANIE;
     if (phaseStr == "KONTROLA_JAKOSCI") return FazaProdukcji::KONTROLA_JAKOSCI;

@@ -22,7 +22,7 @@ class Samochod {
     // Gettery
     int getId() const;
     const std::string& getVin() const;
-    FazaProdukcji getFazaProdukcji();
+    FazaProdukcji getFazaProdukcji() const;
 
     // Settery
     void setFazaProdukcji(FazaProdukcji nowaFazaProdukcji);
